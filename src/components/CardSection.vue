@@ -15,7 +15,7 @@
       </div>
       <div class="mt-7 flex flex-col gap-6">
         <CollapseCard :icon="icons[0]" label="Card details">
-          <CardActions :CardActionsList="cardActions()" />
+          <CardDetails :card="cardDetailsRef[activeCardRef?.currentSlide || 0]" />
         </CollapseCard>
         <CollapseCard :icon="icons[1]" label="Recent transactions" v-if="transactions.length > 0">
           <TransactionList :transactions="transactions" />
@@ -38,6 +38,7 @@ import { CardActionsList } from '@/data/appConfig'
 import { getCardDetails, updateCard } from '@/data/mocks/getCreditInfo'
 import TxnIcon from '@/assets/transactions.svg'
 import Details from '@/assets/details.svg'
+import CardDetails from './CardDetails.vue'
 
 const icons = [Details, TxnIcon]
 
