@@ -100,7 +100,6 @@ src/ <br>
 ├── assets/             # Static assets <br>
 ├── components/         # Reusable components (Card, Modal, etc.) <br>
 ├── data/               # Mocked data (Faker) <br>
-├── styles/             # Tailwind <br>
 ├── App.vue             # Main app file <br>
 └── main.ts             # Entry point <br>
 
