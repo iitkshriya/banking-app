@@ -96,13 +96,13 @@ npm run lint
 
 ## Folder Structure
 
-src/
-├── assets/             # Static assets |
-├── components/         # Reusable components (Card, Modal, etc.)   |
-├── data/               # Mocked data (Faker)   |
-├── styles/             # Tailwind  |
-├── App.vue             # Main app file |
-└── main.ts             # Entry point   |
+src/ <br>
+├── assets/             # Static assets <br>
+├── components/         # Reusable components (Card, Modal, etc.) <br>
+├── data/               # Mocked data (Faker) <br>
+├── styles/             # Tailwind <br>
+├── App.vue             # Main app file <br>
+└── main.ts             # Entry point <br>
 
 ## License
 This project is licensed under the **MIT License**.
