@@ -6,7 +6,7 @@ self.addEventListener('install', (event) => {
         './src/assets/box.svg',
         './src/assets/collapse.svg',
         './src/assets/creditIcon.svg',
-        './srcassets/deactivateCard.svg',
+        './src/assets/deactivateCard.svg',
         './src/assets/details.svg',
         './src/assets/expand.svg',
         './src/assets/flights.svg',
