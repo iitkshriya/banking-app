@@ -5,7 +5,10 @@ import { setUserInfo } from './data/mocks/getUserInfo'
 import { setCreditInfo } from './data/mocks/getCreditInfo'
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/service-worker.js')
+  navigator.serviceWorker
+    .register('/service-worker.js')
+    .then((reg) => console.log('SW registered', reg))
+    .catch((err) => console.error('SW registration failed', err))
 }
 
 setUserInfo()

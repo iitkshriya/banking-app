@@ -1,12 +1,16 @@
 <template>
-  <div class="relative rounded-xl bg-text-green text-white p-6 h-full w-[95%] mt-7 mx-auto max-h-[248px] animate-pulse cursor-not-allowed">
-    
-    <div class="absolute -top-7 right-0 bg-white text-text-green rounded-md pl-3 py-1 shadow md:shadow-none cursor-pointer flex items-center space-x-2">
+  <div
+    class="relative rounded-xl bg-text-green text-white p-6 h-full w-[95%] mt-7 mx-auto max-h-[248px] animate-pulse cursor-not-allowed"
+  >
+    <div
+      class="absolute -top-7 right-0 bg-white text-text-green rounded-md pl-3 py-1 shadow md:shadow-none cursor-pointer flex items-center space-x-2"
+    >
       <img src="../assets/showEye.svg" alt="Show card number" class="h-4 w-4" />
-      <span class="font-opensans font-bold text-fs-12 leading-lh-20 tracking-wide">Show card number</span>
+      <span class="font-opensans font-bold text-fs-12 leading-lh-20 tracking-wide"
+        >Show card number</span
+      >
     </div>
 
-    
     <div class="absolute top-6 right-6 flex justify-between items-start">
       <div class="h-4 w-24 bg-green-400 rounded"></div>
     </div>
