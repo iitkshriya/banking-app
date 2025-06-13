@@ -8,7 +8,7 @@
         </p>
       </div>
       <button class="flex items-center bg-text-blue-1 text-white font-opensans font-bold text-fs-13 leading-lh-18 px-3 py-2 rounded-sm cursor-pointer" @click="openModal">
-        <img src="../assets/add.svg" class="w-4 h-4 mr-2" loading="lazy" />
+        <img src="../assets/add.svg" class="w-4 h-4 mr-2"  />
         New card
       </button>
       <AddCardModal :show="showModal" @close="closeModal" @submit="addCard" />

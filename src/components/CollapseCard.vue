@@ -6,15 +6,15 @@
       data-test="header"
     >
       <div class="flex items-center space-x-2">
-        <img :src="icon" class="w-6 h-6" loading="lazy" />
+        <img :src="icon" class="w-6 h-6"  />
         <span class="ml-3 font-opensans font-regular text-fs-14 leading-lh-18 tracking-normal text-text-blue-2">{{ label }}</span>
       </div>
       <img src="../assets/expand.svg" alt="Toggle"
         class="w-5 h-5"
-        :class="{ 'hidden': isOpen, 'block': !isOpen }" loading="lazy" />
+        :class="{ 'hidden': isOpen, 'block': !isOpen }"  />
       <img src="../assets/collapse.svg" alt="Toggle"
         class="w-5 h-5"
-        :class="{ 'block': isOpen, 'hidden': !isOpen }" loading="lazy" />
+        :class="{ 'block': isOpen, 'hidden': !isOpen }"  />
     </div>
 
     <transition name="fade">

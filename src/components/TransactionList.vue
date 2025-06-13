@@ -5,7 +5,7 @@
       <div v-for="(tx, index) in transactions.slice(0, 4)" :key="index" class="py-5 border-b border-[#F2F2F2] last:border-none flex gap-3 items-start">
 
         <div :class="['w-12 h-12 rounded-full flex items-center justify-center shrink-0', getExpenseBg(tx.expenseType)]" >
-          <img :src="getExpenseIcon(tx.expenseType)" alt="icon" class="w-4 h-4" loading="lazy"/>
+          <img :src="getExpenseIcon(tx.expenseType)" alt="icon" class="w-4 h-4" />
         </div>
 
         <div class="flex flex-col flex-1">
@@ -16,13 +16,13 @@
               tx.status === 'credit' ? 'text-text-green' : 'text-text-grey-2'
             ]">
               <span>{{ tx.amount > 0 ? '+ ' : '- ' }}S$ {{ formattedAmount(tx.amount.toString()) }}</span>
-              <img src="../assets/next.svg" alt="next" class="w-[6px] h-3 inline-block ml-2" loading="lazy"/>
+              <img src="../assets/next.svg" alt="next" class="w-[6px] h-3 inline-block ml-2" />
             </span>
           </div>
           <div class="text-text-grey-1 font-opensans font-regular text-fs-13 leading-lh-18 mt-1">{{ tx.date }}</div>
           <div class="flex items-center mt-3 gap-2">
             <div class="w-6 h-5 rounded-full flex items-center justify-center bg-text-blue-1">
-              <img src="../assets/smallCard.svg" class="w-[10px] h-[8px]" loading="lazy"/>
+              <img src="../assets/smallCard.svg" class="w-[10px] h-[8px]" />
             </div>
             <span class="text-text-blue-1 font-opensans font-semibold text-fs-12 leading-lh-18">{{ tx.status === 'credit' ? 'Refund on debit card': 'Charged to debit card' }}</span>
           </div>

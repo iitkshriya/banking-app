@@ -6,7 +6,7 @@
         }">
     
     <div class="absolute -top-7 right-0 bg-white text-text-green rounded-md pl-3 py-1 shadow md:shadow-none cursor-pointer flex items-center space-x-2" @click="toggleCardNumber">
-      <img src="../assets/showEye.svg" alt="Show card number" class="h-4 w-4" loading="lazy" />
+      <img src="../assets/showEye.svg" alt="Show card number" class="h-4 w-4"  />
       <span class="font-opensans font-bold text-fs-12 leading-lh-20 tracking-wide">Show card number</span>
     </div>
 
