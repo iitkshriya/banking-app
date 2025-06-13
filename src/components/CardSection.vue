@@ -8,10 +8,10 @@
         </div>
       </div>
       <div class="mt-7 flex flex-col gap-6">
-        <CollapseCard icon="../assets/details.svg" label="Card details">
+        <CollapseCard :icon="icons[0]" label="Card details">
           <CardActions :CardActionsList="cardActions()" />
         </CollapseCard>
-        <CollapseCard icon="../assets/transactions.svg" label="Recent transactions" v-if="transactions.length > 0">
+        <CollapseCard :icon="icons[1]" label="Recent transactions" v-if="transactions.length > 0">
           <TransactionList :transactions="transactions" />
         </CollapseCard>
       </div>  
@@ -30,6 +30,10 @@ import { computed, onMounted, ref, watch, type Ref } from 'vue';
 import { getTransactions } from '@/data/mocks/getTransactions';
 import { CardActionsList } from '@/data/appConfig';
 import { getCardDetails, updateCard } from '@/data/mocks/getCreditInfo';
+import TxnIcon from "@/assets/transactions.svg";
+import Details from "@/assets/details.svg";
+
+const icons = [Details, TxnIcon];
 
 const props = defineProps<{
     cardList: string[];
