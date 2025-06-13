@@ -1,6 +1,6 @@
 export const NavItems = [
-  { name: 'Home', icon: '../assets/homeIcon.svg' },
-  { name: 'Cards', icon: '../assets/greenCard.svg' },
+  { name: 'Home', icon: './assets/homeIcon.svg' },
+  { name: 'Cards', icon: './src/assets/greenCard.svg' },
   { name: 'Payments', icon: '../assets/paymentsIcon.svg' },
   { name: 'Credit', icon: '../assets/creditIcon.svg' },
   { name: 'Settings', icon: '../assets/user.svg' }
