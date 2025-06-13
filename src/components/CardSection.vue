@@ -8,10 +8,10 @@
         </div>
       </div>
       <div class="mt-7 flex flex-col gap-6">
-        <CollapseCard icon="./src/assets/details.svg" label="Card details">
+        <CollapseCard icon="../assets/details.svg" label="Card details">
           <CardActions :CardActionsList="cardActions()" />
         </CollapseCard>
-        <CollapseCard icon="./src/assets/transactions.svg" label="Recent transactions" v-if="transactions.length > 0">
+        <CollapseCard icon="../assets/transactions.svg" label="Recent transactions" v-if="transactions.length > 0">
           <TransactionList :transactions="transactions" />
         </CollapseCard>
       </div>  

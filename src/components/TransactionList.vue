@@ -43,13 +43,13 @@ import type { Txn, Expense } from '../TypeDefs';
 const getExpenseIcon = (expense: Expense): string => {
   switch (expense) {
     case 'retail':
-      return './src/assets/box.svg';
+      return '../assets/box.svg';
     case 'travel':
-      return './src/assets/flights.svg';
+      return '../assets/flights.svg';
     case 'entertainment':
-      return './src/assets/horn.svg';
+      return '../assets/horn.svg';
     default:
-      return './src/assets/box.svg';
+      return '../assets/box.svg';
   }
 };
 
