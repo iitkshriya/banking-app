@@ -9,7 +9,7 @@ A **simple, responsive banking app** built with **Vue 3**, **Vite**, and **Tailw
 - 📋 List of all your credit cards grouped by category  
 - ➕ Add new cards via modal form with validations  
 - 🔐 Input masking & security for card details  
-- 🧠 Smart category suggestions (e.g., Travel, Food, Bills)  
+- 🧠 Freeze & unfreeze your card 
 - ⚡️ Fast development and build with Vite  
 - 🎨 Utility-first styling with Tailwind CSS  
 - 🧪 Mock data support using Faker.js
