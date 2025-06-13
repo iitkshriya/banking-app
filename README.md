@@ -10,11 +10,13 @@ A **simple, responsive banking app** built with **Vue 3**, **Vite**, and **Tailw
 - ➕ Add new cards via modal form with validations  
 - 🔐 Input masking & security for card details  
 - 🧠 Smart category suggestions (e.g., Travel, Food, Bills)  
-- 📱 Fully responsive layout (mobile & desktop designs)  
 - ⚡️ Fast development and build with Vite  
-- ✅ Unit and E2E testing with Vitest & Playwright  
 - 🎨 Utility-first styling with Tailwind CSS  
 - 🧪 Mock data support using Faker.js
+- Caching images using service worker, preconnect to fetch font and minimize js build (optimizations)
+- Form validations added
+
+  Mock data is generated as you open the application and it is stored in your localstorage.
 
 ---
 
@@ -108,9 +110,8 @@ This project is licensed under the **MIT License**.
 
 ## Todo / Ideas
 
-1. Add persistent storage (e.g., IndexedDB or LocalStorage)
-2. Dark mode toggle
-3. Complete testing (unit + end-to-end)
-4. Add animations to transitions and modal
-5. Accessibility improvements and screen reader support
-6. Mobile view support
+1. Dark mode toggle
+2. Complete testing (unit + end-to-end)
+3. Add animations to transitions and modal
+4. Accessibility improvements and screen reader support
+5. Mobile view support
