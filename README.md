@@ -40,7 +40,7 @@ A **simple, responsive banking app** built with **Vue 3**, **Vite**, and **Tailw
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/banking-app.git
+git clone https://github.com/iitkshriya/banking-app.git
 cd banking-app
 
 # Install dependencies
@@ -115,3 +115,4 @@ This project is licensed under the **MIT License**.
 3. Add animations to transitions and modal
 4. Accessibility improvements and screen reader support
 5. Mobile view support
+6. Internationalization
