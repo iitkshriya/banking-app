@@ -1,6 +1,6 @@
 <template>
     <img
-        :src="'./assets/greenLogo.svg'"
+        src="./assets/greenLogo.svg"
         alt="Aspire Logo"
         class="h-8 mb-8 block"
         

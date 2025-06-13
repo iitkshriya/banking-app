@@ -1,8 +1,8 @@
-import './assets/main.css'
+import '@/assets/main.css'
 import { createApp } from 'vue'
-import App from './App.vue'
-import { setUserInfo } from './data/mocks/getUserInfo'
-import { setCreditInfo } from './data/mocks/getCreditInfo'
+import App from '@/App.vue'
+import { setUserInfo } from '@/data/mocks/getUserInfo'
+import { setCreditInfo } from '@/data/mocks/getCreditInfo'
 
 // if ('serviceWorker' in navigator) {
 //   navigator.serviceWorker.register('/service-worker.js')

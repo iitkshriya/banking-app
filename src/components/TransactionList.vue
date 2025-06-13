@@ -39,17 +39,20 @@
 
 <script setup lang="ts">
 import type { Txn, Expense } from '../TypeDefs';
+import Box from "@/assets/box.svg";
+import Flights from "@/assets/flights.svg";
+import Horn from "@/assets/horn.svg";
 
 const getExpenseIcon = (expense: Expense): string => {
   switch (expense) {
     case 'retail':
-      return '../assets/box.svg';
+      return Box;
     case 'travel':
-      return '../assets/flights.svg';
+      return Flights;
     case 'entertainment':
-      return '../assets/horn.svg';
+      return Horn;
     default:
-      return '../assets/box.svg';
+      return Box;
   }
 };
 
