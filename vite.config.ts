@@ -7,14 +7,13 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 // https://vite.dev/config/
 export default defineConfig({
   base: '/',
-  plugins: [
-    tailwindcss(),
-    vue(),
-    vueDevTools(),
-  ],
+  plugins: [tailwindcss(), vue(), vueDevTools()],
+  build: {
+    minify: 'esbuild',
+  },
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
 })
